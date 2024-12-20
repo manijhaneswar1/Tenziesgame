@@ -99,10 +99,13 @@ export default function App() {
                       onClick={reset}>Reset
               </button>
           </div>
-          <h1 className="text-gray-500 text-center">No of rolls : {count}</h1>
+          <h1 className="text-gray-400 text-center">No of rolls : {count}</h1>
           <div className="text-center bg-black">
               {tenzies && <h1 className="font-bold text-xl text-yellow-400 sm:pt-8">Congrats You Won !</h1>}
           </div>
+          <footer className="bg-black text-gray-600 flex items-center justify-center p-5">
+              <p>&copy; mani jhaneswar | all rights reserved<sup>&#174;</sup></p>
+          </footer>
       </main>
   )
 }
